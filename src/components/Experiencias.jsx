@@ -58,7 +58,7 @@ export default function Experience() {
     >
       <div className="max-w-7xl mx-auto">
         <p className="uppercase tracking-[6px] text-gray-400 text-sm mb-6">
-          04 / Trayectoria
+          Trayectoria
         </p>
 
         <h2

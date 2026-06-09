@@ -41,7 +41,7 @@ export default function Contact() {
 
         <div>
           <p className="uppercase tracking-[6px] text-gray-400 text-sm">
-            06 / Contacto
+            Contacto
           </p>
 
           <h2

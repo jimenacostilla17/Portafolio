@@ -72,7 +72,7 @@ export default function AiraStudio() {
       className="bg-[#f5f5f5] py-16 px-6 md:px-12 lg:px-24"
     >
       <p className="uppercase tracking-[6px] text-gray-400 text-sm">
-        05 / Aira Studio
+        Aira Studio
       </p>
 
       <div className="flex flex-col lg:flex-row lg:justify-between gap-10 mt-6 mb-12">
