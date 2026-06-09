@@ -37,7 +37,6 @@ export default function Contact() {
         items-start
         "
       >
-        {/* IZQUIERDA */}
 
         <div>
           <p className="uppercase tracking-[6px] text-gray-400 text-sm">
@@ -80,8 +79,6 @@ export default function Contact() {
             funcional y alineada con tu marca.
           </p>
 
-          {/* EMAIL */}
-
           <div
             className="
             flex
@@ -105,7 +102,6 @@ export default function Contact() {
             </a>
           </div>
 
-{/* REDES */}
 
 <div className="flex items-center gap-6 mt-12">
 
@@ -151,8 +147,6 @@ export default function Contact() {
 
 </div>
 
-          {/* CARD */}
-
           <div
             className="
             mt-14
@@ -193,8 +187,6 @@ export default function Contact() {
             </div>
           </div>
         </div>
-
-        {/* DERECHA */}
 
         <form
           onSubmit={handleSubmit}

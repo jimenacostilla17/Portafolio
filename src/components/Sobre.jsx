@@ -12,7 +12,6 @@ export default function About() {
       overflow-hidden
       "
     >
-      {/* linea solo desktop */}
       <div className="hidden lg:block absolute left-12 top-0 h-full w-px bg-gray-200">
       </div>
 
@@ -22,7 +21,6 @@ export default function About() {
 
       <div className="grid lg:grid-cols-2 gap-16 mt-10">
 
-        {/* izquierda */}
         <div>
 
           <h2
@@ -65,7 +63,6 @@ export default function About() {
             funcionalidad trabajan juntas para comunicar mejor.
           </p>
 
-          {/* stats */}
           <div className="flex gap-10 mt-14 flex-wrap">
 
             <div>
@@ -93,7 +90,6 @@ export default function About() {
 
         </div>
 
-        {/* derecha */}
         <div>
 
           <p className="text-lg text-gray-700 leading-9 mb-12">

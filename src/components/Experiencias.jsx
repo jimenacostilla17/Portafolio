@@ -2,29 +2,16 @@ import { Calendar } from "lucide-react";
 
 const experiences = [
   {
-    year: "2024 - Presente",
-    title: "Estudiante de Desarrollo de Software",
-    company: "Formación Académica",
-    desc: "Comencé mi formación profesional en desarrollo de software, adquiriendo conocimientos en programación, bases de datos, desarrollo web y metodologías de trabajo.",
-    achievements: [
-      "Fundamentos sólidos de programación",
-      "Desarrollo de aplicaciones web",
-      "Bases de datos y análisis de sistemas",
-    ],
-  },
-
-  {
     year: "2025 - Presente",
-    title: "Diseño UI/UX & Branding",
-    company: "Formación Autodidacta",
-    desc: "Descubrí mi interés por el diseño digital, enfocándome en la creación de interfaces modernas, experiencia de usuario e identidad visual.",
+    title: "Frontend Developer",
+    company: "Proyectos Académicos y Personales",
+    desc: "Desarrollo de proyectos web combinando diseño, programación y experiencia de usuario para crear productos funcionales y atractivos.",
     achievements: [
-      "Diseño de interfaces en Figma",
-      "Creación de sistemas visuales coherentes",
-      "Aplicación de principios UX/UI",
+      "Sistema de gestión para Centro Médico",
+      "Landing page para Ruddy's",
+      "Proyectos UI inspirados en marcas deportivas",
     ],
   },
-
   {
     year: "2025 - Presente",
     title: "Fundadora de Aira Studio",
@@ -36,16 +23,26 @@ const experiences = [
       "Desarrollo de presencia digital",
     ],
   },
-
   {
     year: "2025 - Presente",
-    title: "Frontend Developer",
-    company: "Proyectos Académicos y Personales",
-    desc: "Desarrollo de proyectos web combinando diseño, programación y experiencia de usuario para crear productos funcionales y atractivos.",
+    title: "Diseño UI/UX & Branding",
+    company: "Formación Autodidacta",
+    desc: "Descubrí mi interés por el diseño digital, enfocándome en la creación de interfaces modernas, experiencia de usuario e identidad visual.",
     achievements: [
-      "Sistema de gestión para Centro Médico",
-      "Landing page para Ruddy's",
-      "Proyectos UI inspirados en marcas deportivas",
+      "Diseño de interfaces en Figma",
+      "Creación de sistemas visuales coherentes",
+      "Aplicación de principios UX/UI",
+    ],
+  },
+  {
+    year: "2024 - Presente",
+    title: "Estudiante de Desarrollo de Software",
+    company: "Formación Académica",
+    desc: "Comencé mi formación profesional en desarrollo de software, adquiriendo conocimientos en programación, bases de datos, desarrollo web y metodologías de trabajo.",
+    achievements: [
+      "Fundamentos sólidos de programación",
+      "Desarrollo de aplicaciones web",
+      "Bases de datos y análisis de sistemas",
     ],
   },
 ];
@@ -77,7 +74,6 @@ export default function Experience() {
         </h2>
 
         <div className="relative">
-          {/* línea timeline */}
           <div className="hidden md:block absolute left-5 top-0 w-px h-full bg-gray-300"></div>
 
           <div className="space-y-12">
@@ -86,12 +82,10 @@ export default function Experience() {
                 key={index}
                 className="relative flex gap-8 items-start"
               >
-                {/* punto timeline */}
                 <div className="hidden md:flex relative z-10">
                   <div className="w-10 h-10 rounded-full bg-black"></div>
                 </div>
 
-                {/* card */}
                 <div
                   className="
                   flex-1

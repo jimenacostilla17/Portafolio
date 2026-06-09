@@ -82,7 +82,6 @@ export default function Skills() {
       "
     >
 
-      {/* Texto decorativo */}
        <p className="uppercase tracking-[6px] text-gray-400 text-sm">
         Herramientas
       </p>
@@ -139,8 +138,6 @@ export default function Skills() {
             ${index % 2 === 0 ? "lg:translate-y-4" : ""}
             `}
           >
-
-            {/* icono */}
             <div
               className="
               text-5xl
@@ -151,8 +148,6 @@ export default function Skills() {
             >
               {tech.icon}
             </div>
-
-            {/* info */}
             <div>
 
               <h3 className="text-xl md:text-2xl font-light mb-2">

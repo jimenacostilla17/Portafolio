@@ -41,9 +41,6 @@ export default function Projects() {
       overflow-hidden
       "
     >
-
-      {/* encabezado */}
-
       <p className="uppercase tracking-[6px] text-gray-400 text-sm">
         Proyectos
       </p>
@@ -70,8 +67,6 @@ export default function Projects() {
         </p>
 
       </div>
-
-      {/* carrusel */}
 
       <div
         className="
@@ -103,8 +98,6 @@ export default function Projects() {
             "
           >
 
-            {/* imagen */}
-
             <div className="overflow-hidden h-[250px] md:h-[350px]">
 
               <img
@@ -123,9 +116,6 @@ export default function Projects() {
               />
 
             </div>
-
-            {/* contenido */}
-
             <div className="p-8">
 
               <p className="uppercase tracking-[4px] text-xs text-gray-400 mb-4">
@@ -165,8 +155,6 @@ export default function Projects() {
         ))}
 
       </div>
-
-      {/* cierre */}
 
       <p className="text-center text-gray-500 mt-10 max-w-2xl mx-auto">
         Cada proyecto representa una combinación entre diseño,
