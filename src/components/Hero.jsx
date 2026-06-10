@@ -102,22 +102,26 @@ export default function Hero() {
           proyectos visualmente atractivos y funcionales.
         </p>
 
-        <button
-          className="
-          mt-12
-          uppercase
-          tracking-[4px]
-          text-sm
-          flex
-          items-center
-          gap-3
-          hover:translate-x-2
-          transition
-          "
-        >
-          Ver proyectos →
-        </button>
-
+        <a
+  href="#proyectos"
+  className="
+    mt-12
+    uppercase
+    tracking-[4px]
+    text-sm
+    flex
+    items-center
+    gap-3
+    hover:translate-x-2
+    transition
+    px-6
+    py-3
+    text-gray-500
+    rounded-lg
+  "
+>
+  Ver proyectos →
+</a>
       </div>
     </section>
   );

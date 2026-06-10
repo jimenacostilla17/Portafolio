@@ -6,7 +6,6 @@ import Proyectos from "./components/Proyectos";
 import Experiencias from "./components/Experiencias";
 import Aira from "./components/Aira";
 import Contacto from "./components/Contacto";
-import Cursor from "./components/Cursor";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Experiencias />
       <Aira />
       <Contacto />
-      <Cursor />
     </div>
   );
 }

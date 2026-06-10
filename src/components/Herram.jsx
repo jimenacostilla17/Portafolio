@@ -134,8 +134,6 @@ export default function Skills() {
             hover:bg-black
             hover:text-white
             hover:-translate-y-2
-
-            ${index % 2 === 0 ? "lg:translate-y-4" : ""}
             `}
           >
             <div
